@@ -1,0 +1,17 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add custom dark mode styles */
+.dark .navbar {
+  background-color: #1a202c; /* Darker background for dark mode */
+}
+
+.dark .text-gray-300 {
+  color: #a0aec0; /* Lighter text color for dark mode */
+}
+
+.dark .hover\:text-white:hover {
+  color: #f7fafc; /* White text on hover for dark mode */
+}
